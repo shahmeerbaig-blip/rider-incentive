@@ -1,0 +1,34 @@
+# Production Requirements for Rider Incentive System
+
+# Web Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-Limiter==3.5.0
+Werkzeug==2.3.7
+
+# Database
+mysql-connector-python==8.1.0
+SQLAlchemy==2.0.21
+
+# API & Monitoring
+prometheus-client==0.17.1
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Environment & Config
+python-dotenv==1.0.0
+
+# Logging & Debugging
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+pytest-flask==1.2.0
+
+# Development (optional)
+black==23.9.1
+flake8==6.1.0
+mypy==1.5.1
